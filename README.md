@@ -4,10 +4,10 @@ A Go mono-repo for small CLI tools and scripts.
 
 ## Scripts
 
-| Script            | Description                                                                 |
-| ----------------- | --------------------------------------------------------------------------- |
+| Script                | Description                                                                 |
+| --------------------- | --------------------------------------------------------------------------- |
 | `npm-min-release-age` | Filters `npm outdated` by release age, suggesting the latest "safe" version |
-| `script-template` | Placeholder / example for adding new scripts                                |
+| `script-template`     | Placeholder / example for adding new scripts                                |
 
 ## Requirements
 
@@ -111,7 +111,3 @@ GOOS=darwin GOARCH=arm64 go build -o bin/npm-min-release-age-darwin ./cmd/npm-mi
 # Windows
 GOOS=windows GOARCH=amd64 go build -o bin/npm-min-release-age.exe ./cmd/npm-min-release-age
 ```
-
-## License
-
-MIT
